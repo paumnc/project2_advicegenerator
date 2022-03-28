@@ -51,19 +51,17 @@ body {
   	transform: translate(-50%, 0);
 }
 
-.icon{
+.icon {
     height: 30px;
     width: 30px;
     /* position: absolute;
   	bottom: 0;
       left: 50%;
   	transform: translate(-50%, 0);
-  
       /* to place the img at the front of div */
       /* z-index: 1;
       margin-bottom: -1%; */ 
-
-      margin-top: 30%;
+    margin-top: 30%;
 }
 
 .circle {
@@ -102,7 +100,12 @@ footer {
     height: 20px; 
 }
 
-a:link{
+a:link {
+    text-decoration: none;
+    color: hsl(150, 100%, 66%);
+}
+
+a {
     text-decoration: none;
     color: hsl(150, 100%, 66%);
 }

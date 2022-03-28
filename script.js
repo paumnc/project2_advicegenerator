@@ -1,6 +1,21 @@
-let number = document.querySelector(".number");
-let advice = document.querySelector(".advice");
-let circle = document.querySelector(".circle")
+const number = document.querySelector(".number");
+const advice = document.querySelector(".advice");
+const circle = document.querySelector(".circle")
 
+async function randomAdvice() {
+try {
+    const random = await fetch("https://api.adviceslip.com/advice");
+    console.log(random)
+    const adviceGenerated = await random.json();
+    console.log(adviceGenerated)
+    number.textContent = `#${adviceGenerated.slip.id}`;
+    advice.textContent = `"${adviceGenerated.slip.advice}"`;
 
-console.log("hello")
+    } catch(e) {
+        console.log(e)
+    }
+}
+randomAdvice();
+
+circle.addEventListener("click", () => { randomAdvice() });
+
