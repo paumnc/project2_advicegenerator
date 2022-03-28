@@ -9,3 +9,6 @@ I think the most important thing that I learned is the javascript code. Learning
 
 I also enjoyed doing the HTML and CSS codes. I created a simple media query for smaller view like iphones.
 
+## Resources
+[StackOverFlow](https://stackoverflow.com/) - Questions from other codes really helped me understand my work better
+[Youtube](https://www.youtube.com/watch?v=2AfzKmgqWUE) - this video helped me to understand fetch(), then(), await() etc functions
