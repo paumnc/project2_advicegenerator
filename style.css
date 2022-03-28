@@ -36,7 +36,7 @@ body {
     font-size: 14px;
     letter-spacing: 2pt;
     margin-top: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 .advice {
@@ -116,6 +116,7 @@ a {
     }
     .advice {
         font-size: 16px;
+        line-height: 25px;
     }
     .divider {
         width: 250px;
